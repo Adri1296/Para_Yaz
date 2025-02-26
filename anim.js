@@ -6,8 +6,8 @@ var lyrics = document.querySelector("#lyrics");
 var lyricsData = [
   { text: "Cada vez que me levanto", time: 1 },
   { text: "Y veo que a mi lado estás", time: 7 },
-  { text: "Me siento renovado", time: 7 },
-  { text: "Y me siento aniquilado", time: 13},
+  { text: "Me siento renovado", time: 8 },
+  { text: "Y me siento aniquilado", time: 10},
   { text: "Aniquilado si no estás", time:  },
   { text: "Tu controlas toda mi verdad", time:  },
   { text: "Y todo lo que está de más", time:  },
