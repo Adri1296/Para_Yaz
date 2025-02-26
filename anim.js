@@ -4,7 +4,7 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "", time: 5 },
+  { text: "Te la dedico", time: 5 },
   { text: "Tus ojos me llevan lentamente al sol", time: 27 },
   { text: "Y tu boca me habla del amor y el corazon", time: 30 },
   { text: "Tu piel tiene el color", time: 34 },
