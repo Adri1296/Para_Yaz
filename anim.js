@@ -4,7 +4,7 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "Te la dedico", time: 5 },
+  { text: "Te la dedico", time: 10 },
   { text: "Tus ojos me llevan lentamente al sol", time: 27 },
   { text: "Y tu boca me habla del amor y el corazon", time: 30 },
   { text: "Tu piel tiene el color", time: 34 },
@@ -47,10 +47,10 @@ setInterval(updateLyrics, 1000);
 function ocultarTitulo() {
   var titulo = document.querySelector(".titulo");
   titulo.style.animation =
-    "fadeOut 3s ease-in-out forwards"; /* Duración y función de temporización de la desaparición */
+    "fadeOut 2s ease-in-out forwards"; /* Duración y función de temporización de la desaparición */
   setTimeout(function () {
     titulo.style.display = "none";
-  }, 3000); // Espera 3 segundos antes de ocultar completamente
+  }, 2000); // Espera 3 segundos antes de ocultar completamente
 }
 
 // Llama a la función después de 216 segundos (216,000 milisegundos)
