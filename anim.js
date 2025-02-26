@@ -8,7 +8,7 @@ var lyricsData = [
   { text: "Tus ojos me llevan lentamente al sol", time: 27 },
   { text: "Y tu boca me habla del amor y el corazon", time: 30 },
   { text: "Tu piel tiene el color", time: 34 },
-  { text: "De un rojo atardecer", time: 40 },
+  { text: "De un rojo atardecer", time: 38 },
   { text: "Y es por ti", time: 41 },
   { text: "Que late mi corazon", time: 45 },
   { text: "Y es por ti", time: 49 },
