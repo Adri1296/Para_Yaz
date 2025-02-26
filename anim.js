@@ -4,17 +4,17 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "Cada vez que me levanto", time: 3 },
-  { text: "Y veo que a mi lado estás", time: 4 },
-  { text: "Me siento renovado", time: 5 },
-  { text: "Y me siento aniquilado", time: 6 },
-  { text: "Aniquilado si no estás", time: 7 },
-  { text: "Tu controlas toda mi verdad", time: 8 },
-  { text: "Y todo lo que está de más", time: 9 },
-  { text: "Tus ojos me llevan lentamente al sol", time: 10 },
-  { text: "Y tu boca me habla del amor y el corazon", time: 11 },
-  { text: "Tu piel tiene el color", time: 12 },
-  { text: "De un rojo atardecer", time: 13 },
+  { text: "Cada vez que me levanto", time: 26 },
+  { text: "Y veo que a mi lado estás", time: 27 },
+  { text: "Me siento renovado", time: 28 },
+  { text: "Y me siento aniquilado", time: 29 },
+  { text: "Aniquilado si no estás", time: 30 },
+  { text: "Tu controlas toda mi verdad", time: 31 },
+  { text: "Y todo lo que está de más", time: 32 },
+  { text: "Tus ojos me llevan lentamente al sol", time: 33 },
+  { text: "Y tu boca me habla del amor y el corazon", time: 34 },
+  { text: "Tu piel tiene el color", time: 35 },
+  { text: "De un rojo atardecer", time: 36 },
   { text: "Y es por ti", time: 37 },
   { text: "Que late mi corazon", time: 38 },
   { text: "Y es por ti", time: 39 },
@@ -55,7 +55,7 @@ var lyricsData = [
 function updateLyrics() {
   var time = Math.floor(audio.currentTime);
   var currentLine = lyricsData.find(
-    (line) => time >= line.time && time < line.time + 6
+    (line) => time >= line.time && time < line.time + 5
   );
 
   if (currentLine) {
