@@ -8,11 +8,11 @@ var lyricsData = [
   { text: "Tus ojos me llevan lentamente al sol", time: 27 },
   { text: "Y tu boca me habla del amor y el corazon", time: 30 },
   { text: "Tu piel tiene el color", time: 34 },
-  { text: "De un rojo atardecer", time: 38 },
+  { text: "De un rojo atardecer", time: 36 },
   { text: "Y es por ti", time: 41 },
   { text: "Que late mi corazon", time: 45 },
   { text: "Y es por ti", time: 49 },
-  { text: "Que brillan mis ojos hoy", time: 53 },
+  { text: "Que brillan mis ojos hoy", time: 52 },
   { text: "Y es por ti", time: 58 },
   { text: "Que he vuelto a habalr de amor", time: 61 },
 
