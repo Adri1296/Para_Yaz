@@ -55,7 +55,7 @@ var lyricsData = [
 function updateLyrics() {
   var time = Math.floor(audio.currentTime);
   var currentLine = lyricsData.find(
-    (line) => time >= line.time && time < line.time + 6
+    (line) => time >= line.time && time < line.time + 5
   );
 
   if (currentLine) {
@@ -73,7 +73,7 @@ function updateLyrics() {
   }
 }
 
-setInterval(updateLyrics, 900);
+setInterval(updateLyrics, 800);
 
 //funcion titulo
 // Función para ocultar el título después de 216 segundos
