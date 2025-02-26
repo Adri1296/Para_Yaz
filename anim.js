@@ -4,17 +4,17 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "", time: 46 },
-  { text: "Tus ojos me llevan lentamente al sol", time: 28 },
-  { text: "Y tu boca me habla del amor y el corazon", time: 31 },
-  { text: "Tu piel tiene el color", time: 35 },
-  { text: "De un rojo atardecer", time: 41 },
-  { text: "Y es por ti", time: 42 },
-  { text: "Que late mi corazon", time: 46 },
-  { text: "Y es por ti", time: 50 },
-  { text: "Que brillan mis ojos hoy", time: 54 },
-  { text: "Y es por ti", time: 59 },
-  { text: "Que he vuelto a habalr de amor", time: 62 },
+  { text: "", time: 5 },
+  { text: "Tus ojos me llevan lentamente al sol", time: 27 },
+  { text: "Y tu boca me habla del amor y el corazon", time: 30 },
+  { text: "Tu piel tiene el color", time: 34 },
+  { text: "De un rojo atardecer", time: 40 },
+  { text: "Y es por ti", time: 41 },
+  { text: "Que late mi corazon", time: 45 },
+  { text: "Y es por ti", time: 49 },
+  { text: "Que brillan mis ojos hoy", time: 53 },
+  { text: "Y es por ti", time: 58 },
+  { text: "Que he vuelto a habalr de amor", time: 61 },
 
 ];
 
