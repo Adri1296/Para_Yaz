@@ -5,10 +5,10 @@ var lyrics = document.querySelector("#lyrics");
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
   { text: "Cada vez que me levanto", time: 1 },
-  { text: "Y veo que a mi lado estás", time: 7 },
-  { text: "Me siento renovado", time: 8 },
-  { text: "Y me siento aniquilado", time: 10},
-  { text: "Aniquilado si no estás", time:  },
+  { text: "Y veo que a mi lado estás", time: 2 },
+  { text: "Me siento renovado", time: 3 },
+  { text: "Y me siento aniquilado", time: 4},
+  { text: "Aniquilado si no estás", time: 5 },
   { text: "Tu controlas toda mi verdad", time:  },
   { text: "Y todo lo que está de más", time:  },
   { text: "Tus ojos me llevan lentamente al sol", time:  },
